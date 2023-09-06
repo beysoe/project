@@ -49,10 +49,12 @@ inflation %>%
   ggplot() +
   geom_line(aes(date, value, color = name)) +
   NULL
+    
 ```
 
 ```{r}
 with(mtcars, plot(hp, mpg))
+
 ```
 # how to include a new chunk: option + command + i
 
